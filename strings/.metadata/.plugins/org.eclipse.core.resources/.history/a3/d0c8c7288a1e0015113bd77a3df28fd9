@@ -1,0 +1,9 @@
+package examples;
+
+public class ExampleontoString2 {
+	public static void main(String[] args) {
+		String s=new String("VINOD SANGEETA");
+		System.out.println(s.toLowerCase());
+	}
+
+}

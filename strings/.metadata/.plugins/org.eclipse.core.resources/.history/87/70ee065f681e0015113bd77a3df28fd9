@@ -1,0 +1,14 @@
+package examples;
+
+public class StringAppend {
+	public static void main(String[] args) {
+		StringBuffer sb=new StringBuffer("Hello");
+		sb.append("Java");
+		System.out.println(sb);
+		StringBuffer sb1=new StringBuffer();
+		sb1.insert(1, "Java");
+		System.out.println(sb1);
+		System.out.println(sb1.capacity());
+	}
+
+}

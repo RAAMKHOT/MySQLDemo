@@ -1,0 +1,17 @@
+package com.vinod.examples;
+
+public class demo2 extends Thread {
+	public static void main(String[] args) {
+		demo2 d2=new demo2();
+		System.out.println("Thread information");
+		System.out.println("Thread Id: "+d2.getId());
+		System.out.println("Thread Name: "+d2.getName());
+		System.out.println("Thread Priority: "+d2.getPriority());
+		d2.setName("vinod");
+		d2.setPriority(8);
+		System.out.println("Thread id:"+d2.getId());
+		System.out.println("Thread Name: "+d2.getName());
+		System.out.println("Thread Priority: "+d2.getPriority());
+
+	}
+}

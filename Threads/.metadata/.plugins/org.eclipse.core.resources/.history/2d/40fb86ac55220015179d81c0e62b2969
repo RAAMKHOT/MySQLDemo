@@ -1,0 +1,11 @@
+package com.vinod.examples;
+Interface Runnable {
+	void run() {
+		
+	}
+}
+
+public class demo3 implements Runnable{
+	
+
+}

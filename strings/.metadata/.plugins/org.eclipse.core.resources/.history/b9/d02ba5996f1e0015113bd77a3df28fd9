@@ -1,0 +1,14 @@
+package examples;
+
+public class StringBuilderEx {
+
+	public static void main(String[] args) {
+		StringBuilder sb=new StringBuilder(10);
+		int sb1=sb.capacity();
+		System.out.println(sb1);
+		int sb2=sb.length();
+		System.out.println(sb2);
+
+	}
+
+}

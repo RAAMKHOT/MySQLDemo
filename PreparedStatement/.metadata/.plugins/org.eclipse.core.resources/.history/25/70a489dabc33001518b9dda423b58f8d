@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package org.vinod.PrepSta;
+
+/**
+ * @author TARANG
+ *
+ */
+public interface DBConstant {
+
+}

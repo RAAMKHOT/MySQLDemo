@@ -1,0 +1,14 @@
+package examples;
+
+public class ExampleontoString2 {
+	public static void main(String[] args) {
+		String s=new String("  vinod  ");
+		System.out.println(s.hashCode());
+		System.out.println(s.charAt(1));
+		System.out.println(s.toUpperCase());
+		System.out.println(s.trim());
+		System.out.println(s.endsWith(" "));
+		System.out.println(s.indexOf(5));
+		
+	}
+}

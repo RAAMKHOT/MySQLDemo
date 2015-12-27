@@ -1,0 +1,21 @@
+package com.vinod.examples;
+
+public interface Runnable {
+	void run();	
+}
+
+class test implements Runnable{
+	@Override
+	public void run() {
+		System.out.println("Print numbers");
+		for (int i = 0; i <=10; i++) {
+			System.out.println("i="+i);
+			try {
+				Thread.sleep(1000,100);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+}

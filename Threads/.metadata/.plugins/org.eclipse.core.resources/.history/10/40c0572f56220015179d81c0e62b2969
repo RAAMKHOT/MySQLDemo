@@ -1,0 +1,6 @@
+package com.vinod.examples;
+
+public interface Runnable {
+	void run();
+	
+}
